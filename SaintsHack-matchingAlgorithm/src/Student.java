@@ -19,11 +19,11 @@ public class Student {
     private String email;
     private int phoneNumber;
     private ArrayList<String> hobbies;
-    private ArrayList<String> restrictions;
+    private ArrayList<String> dietaryRestrictions;
 
     public Student(String firstName, String lastName, int age, char gender, String homeCountry, String religion,
             String college, String major, String email, int phoneNumber, ArrayList<String> hobbies,
-            ArrayList<String> restrictions, ArrayList<String> allergies, ArrayList<String> sports) {
+            ArrayList<String> dietaryRestrictions, ArrayList<String> allergies, ArrayList<String> sports) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -35,7 +35,7 @@ public class Student {
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.hobbies = hobbies;
-        this.restrictions = restrictions;
+        this.dietaryRestrictions = dietaryRestrictions;
         this.sports = sports;
         this.allergies = allergies;
     }
@@ -121,10 +121,10 @@ public class Student {
     }
 
     /**
-     * Returns student's restrictions
+     * Returns student's dietary restrictions
      */
     public ArrayList<String> getRestrictions() {
-        return restrictions;
+        return dietaryRestrictions;
     }
 
     /**
