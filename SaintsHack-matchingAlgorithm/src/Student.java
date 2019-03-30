@@ -8,20 +8,36 @@ public class Student {
      */
     private String firstName;
     private String lastName;
+    private int age;
+    private char gender;
+    private String homeCountry;
+    private String religion;
+    private String collegeMajor;
+    private ArrayList<String> sports;
+    private ArrayList<String> allergies;
     private String college;
     private String email;
     private int phoneNumber;
     private ArrayList<String> hobbies;
     private ArrayList<String> restrictions;
 
-    public Student(String firstName, String lastName, String college, String email, int phoneNumber, ArrayList<String> hobbies, ArrayList<String> restrictions) {
+    public Student(String firstName, String lastName, int age, char gender, String homeCountry, String religion,
+            String college, String major, String email, int phoneNumber, ArrayList<String> hobbies,
+            ArrayList<String> restrictions, ArrayList<String> allergies, ArrayList<String> sports) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.age = age;
+        this.gender = gender;
+        this.homeCountry = homeCountry;
+        this.religion = religion;
+        this.collegeMajor = major;
         this.college = college;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.hobbies = hobbies;
         this.restrictions = restrictions;
+        this.sports = sports;
+        this.allergies = allergies;
     }
 
     /**
@@ -32,6 +48,34 @@ public class Student {
         fullname.add(firstName);
         fullname.add(lastName);
         return fullname;
+    }
+
+    /**
+     * Returns the student's home country
+     */
+    public String getHomeCountry() {
+        return homeCountry;
+    }
+
+    /**
+     * Return student's gender
+     */
+    public char getGender() {
+        return gender;
+    }
+
+    /**
+     * Return student's age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * Returns student's religion
+     */
+    public String getReligion() {
+        return religion;
     }
 
     /**
@@ -56,6 +100,13 @@ public class Student {
     }
 
     /**
+     * Return student's college major or concentration
+     */
+    public String getCollegeMajor() {
+        return collegeMajor;
+    }
+
+    /**
      * Returns students hobbies
      */
     public ArrayList<String> getHobbies() {
@@ -63,9 +114,23 @@ public class Student {
     }
 
     /**
+     * Return if student is partipating in a sport
+     */
+    public ArrayList<String> getSports() {
+        return sports;
+    }
+
+    /**
      * Returns student's restrictions
      */
     public ArrayList<String> getRestrictions() {
         return restrictions;
+    }
+
+    /**
+     * Return student's allergies
+     */
+    public ArrayList<String> getAllergies() {
+        return allergies;
     }
 }
