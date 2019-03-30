@@ -1,0 +1,23 @@
+
+                                                    How to Determine Initial Pairing
+
+To determine the best matches, we want to show host families only students they can accommodate.
+This means students with no pet preference, religious preference, or students with certain restrictions on their ideal
+family will not be displayed to families that are not an initial good match.
+
+From that initial list of possible students the families can host, we also want to show a legend indicator (percentage maybe?) of how well of a match that is.
+This could mean the family and the student share some common characteristic; such as religion, hobbies,  and general proximity (very close by).
+
+Using this indicator, we will display students with most match at the top, going down to very little match at the bottom.
+Although this is very systematic, families can seek out students that vary background significantly or seek out students with very similar backgrounds.
+
+Because we want students to be receptive of the families that may seek them out, we will give the student the opportunity to select a possible host family that has selected them.
+
+
+Additional Features/Future Considerations
+    - The ability for the student to select if they want a family that is similar to their background or different --- thus optimizing the system to show families that differ from the students background
+    - Ability for the Hosting Program (through the university or company) to organize a meetup of the families and their matches
+    - Ability for families to log their interactions with their students
+    - Ability for students to provide feedback about their host family and satisfaction levels
+    - Ability for University or Host Family Company to monitor this information; therefore intervening if a match is not going well or family/student is not receptive of arrangement
+    - Anything else
