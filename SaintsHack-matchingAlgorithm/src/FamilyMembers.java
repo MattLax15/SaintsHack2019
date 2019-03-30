@@ -27,6 +27,7 @@ public class FamilyMembers {
         return membersOccuptionOrSchool;
     }
 
+
     /**
      * Adds a member to the family
      * @param firstName the members first name
