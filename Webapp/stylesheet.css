@@ -16,3 +16,21 @@
     margin: 0px, 100px, 0px 100px;
     font-size: 30px;
 }
+
+#familyMembers {
+    text-align: center;
+    font-size: 26px;
+}
+
+#numberOfFamily {
+    font-size: 25px;
+}
+
+#numberOfPets {
+    font-size: px;
+
+}
+
+#nextButton {
+    font-size: 20px;
+}
