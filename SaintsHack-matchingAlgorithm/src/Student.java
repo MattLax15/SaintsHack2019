@@ -15,6 +15,7 @@ public class Student {
     private String collegeMajor;
     private ArrayList<String> sports;
     private ArrayList<String> allergies;
+    private boolean petPreference;
     private String college;
     private String email;
     private int phoneNumber;
@@ -125,6 +126,13 @@ public class Student {
      */
     public ArrayList<String> getRestrictions() {
         return dietaryRestrictions;
+    }
+
+    /**
+     * Returns student's pet preference
+     */
+    public boolean getPetPreference() {
+        return petPreference;
     }
 
     /**
