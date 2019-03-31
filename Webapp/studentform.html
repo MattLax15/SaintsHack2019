@@ -9,6 +9,8 @@
 
 		//h2{background-color:blue;}
 		
+		
+		
 		h1{ font-size: 400%;
 			
 		}
@@ -23,10 +25,7 @@
 		position: absolute;
 		}
 		
-		a{	position: absolute;
-			top: 0px;
-			left: 10px;
-		}
+	
 		
 		a2{	position: absolute;
 			top: 0px;
@@ -100,7 +99,7 @@
 	
 </head>
 	
-<body>
+<body style="background-color:orange;">
 
 
 
@@ -300,12 +299,16 @@
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4">
-    <button id = "sendbutton" type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+
+    <!--<button id = "sendbutton">Send </button> -->
+	<a href="http://nyscrimeanalysis.org/" class="btn btn-info" role="button">Send </a>
 
 
-</script>
   </div>
-  	<script type="text/javascript">
+ 
+	
+</div>
+ 	<script type="text/javascript">
 
 //the following code is for when a button is clicked on:
 	
@@ -313,7 +316,7 @@ document.getElementById("sendbutton").onclick = function () {
         location.href = "http://nyscrimeanalysis.org/"; //typically this would be a url but the website has not been published yet
     };
 	
-</div>
+	</script>
 
 	
 
